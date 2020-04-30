@@ -1,11 +1,15 @@
 {
   "name": "vue-img-viewer-pc",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "description": "基于Vue的PC端图片预览组件",
+  "main": "lib/vcolorpicker.umd.min.js",
+  "keyword": "vue-img-viewer-pc img-view img-viewer vue-img-view vue-img-viewer",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-img-viewer-pc --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",

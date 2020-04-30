@@ -2,11 +2,11 @@
 // packages / index.js
 
 // 导入单个组件
-import Textarea from './ImgViewer/index'
+import viewer from './ImgViewer/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
-  Textarea
+  viewer
 ]
 
 // 定义 install 方法

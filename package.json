@@ -1,7 +1,7 @@
 {
   "name": "vue-img-viewer-pc",
   "author": "pony-world",
-  "version": "0.1.3",
+  "version": "0.1.1",
   "private": false,
   "description": "基于Vue的PC端图片预览组件",
   "main": "lib/vcolorpicker.umd.min.js",

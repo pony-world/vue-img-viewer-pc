@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import ImgViewer from '../../packages/index'
 export default {
   name: 'Home',
   data () {
@@ -22,9 +21,6 @@ export default {
         require('../assets/img/bg7.jpg')
       ]
     }
-  },
-  components: {
-    ImgViewer
   }
 }
 </script>
